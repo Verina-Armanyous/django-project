@@ -1,7 +1,9 @@
 from django.conf import settings
 from django.db import models
+from django.conf import settings
 
 # Create your models here.
+
 
 class Item(models.Model):
 	title = models.CharField(max_length=100)
